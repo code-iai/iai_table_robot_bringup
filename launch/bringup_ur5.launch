@@ -13,7 +13,7 @@
   <arg name="limited" default="false"/>
   <arg name="min_payload"  default="0.0"/>
   <arg name="max_payload"  default="5.0"/>
-  <arg name="prefix" default="ur5_" />
+  <arg name="prefix" default="" />
   <arg name="use_ros_control" default="False" />
   <!-- robot model -->
   <include file="$(find iai_table_robot_description)/launch/upload.launch">
