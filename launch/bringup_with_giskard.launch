@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find iai_table_robot_bringup)/launch/bringup.launch"/>
+  <include file="$(find giskard_iai_table_robot)/launch/iai_table_robot_giskard.launch">
+    <arg name="sim" value="false"/>
+  </include>
+</launch>

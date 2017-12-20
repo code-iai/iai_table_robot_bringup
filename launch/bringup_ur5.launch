@@ -57,6 +57,6 @@
     <node name="fake_state_publisher" pkg="iai_table_robot_bringup" type="fake_state_publisher.py" output="screen"/>
   </group>
 
-  <include file="$(find iai_table_robot_bringup)/launch/iai_table_robot_giskard.launch" />
+  <!-- <include file="$(find iai_table_robot_bringup)/launch/iai_table_robot_giskard.launch" /> -->
 
 </launch>

@@ -1,0 +1,20 @@
+- git: 
+    local-name: iai_table_robot_bringup
+    uri: https://github.com/code-iai/iai_table_robot_bringup.git
+    version: master
+- git: 
+    local-name: iai_table_robot_description
+    uri: https://github.com/code-iai/iai_table_robot_description.git
+    version: master
+- git: 
+    local-name: iai_table_robot_sim
+    uri: https://github.com/code-iai/iai_table_robot_sim.git
+    version: master
+- git: 
+    local-name: ur_modern_driver
+    uri: https://github.com/nicolacastaman/ur_modern_driver.git
+    version: master
+- git: 
+    local-name: universal_robot
+    uri: https://github.com/ros-industrial/universal_robot.git
+    version: master
