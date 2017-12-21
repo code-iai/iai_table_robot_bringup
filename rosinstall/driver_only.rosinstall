@@ -18,3 +18,7 @@
     local-name: universal_robot
     uri: https://github.com/ros-industrial/universal_robot.git
     version: master
+- git: 
+    local-name: iai_robot_drivers
+    uri: https://github.com/code-iai/iai_robot_drivers.git
+    version: master
