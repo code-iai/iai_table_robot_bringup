@@ -58,13 +58,13 @@
   </group>
 
   <include file="$(find iai_kms_40_driver)/launch/iai_kms_40_driver.launch" >
-    <arg name="ip" value="192.168.102.70" />
+    <arg name="ip" value="192.168.102.65" />
   </include>
 
   <include file="$(find iai_table_robot_bringup)/launch/ft_cleaner.launch" />
 
   <include file="$(find wsg_50_driver)/launch/wsg_50_tcp.launch" >
-    <arg name="ip" value="192.168.102.63" />
+    <arg name="ip" value="192.168.102.64" />
   </include>
 
 </launch>
