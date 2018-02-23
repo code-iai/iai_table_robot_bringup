@@ -34,3 +34,7 @@
     local-name: iai_robots
     uri: https://github.com/code-iai/iai_robots.git
     version: master
+- git: 
+    local-name: giskard_iai_table_robot
+    uri: https://github.com/SemRoCo/giskard_iai_table_robot.git
+    version: master

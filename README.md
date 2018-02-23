@@ -10,6 +10,7 @@ catkin init                                # init workspace
 cd src                                     # go to source directory of workspace
 wstool init                                # init rosinstall
 wstool merge https://raw.githubusercontent.com/code-iai/iai_table_robot_bringup/master/rosinstall/driver_only.rosinstall
+wstool merge https://raw.githubusercontent.com/SemRoCo/giskard_examples/master/rosinstall/catkin.rosinstall
                                            # update rosinstall file
 wstool update                              # pull source repositories
 rosdep install --ignore-src --from-paths . # install dependencies available through apt
@@ -23,4 +24,9 @@ source ~/table_robot_ws/devel/setup.bash   # source new overlay
 To start the robot:
 ```
 roslaunch iai_table_robot_bringup bringup.launch
+```
+
+To start robot with giskard:
+```
+roslaunch iai_table_robot_bringup bringup_with_giskard.launch
 ```
