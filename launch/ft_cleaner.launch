@@ -9,6 +9,6 @@
   <node name="ft_cleaner" pkg="wrist_ft_sensor_cleaner" type="ft_cleaner.py" output="screen">
   	<param name="ft_topic" value="/kms40/wrench" />
    	<param name="acceleration_topic" value="acceleration" />
-  	<param name="path_to_saved_params" value="$(find iai_table_robot_bringup)/launch/ft_params.yaml" />
+  	<param name="path_to_saved_params" value="$(find iai_table_robot_bringup)/config/ft_params.yaml" />
   </node>	
 </launch>

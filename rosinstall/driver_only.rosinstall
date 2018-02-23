@@ -12,13 +12,25 @@
     version: master
 - git: 
     local-name: ur_modern_driver
-    uri: https://github.com/nicolacastaman/ur_modern_driver.git
+    uri: https://github.com/Zagitta/ur_modern_driver.git
     version: master
 - git: 
     local-name: universal_robot
     uri: https://github.com/ros-industrial/universal_robot.git
-    version: master
+    version: kinetic-devel
 - git: 
     local-name: iai_robot_drivers
     uri: https://github.com/code-iai/iai_robot_drivers.git
+    version: master
+- git: 
+    local-name: robot_wrist_ft_tools
+    uri: https://github.com/code-iai/robot_wrist_ft_tools.git
+    version: master
+- git: 
+    local-name: iai_common_msgs
+    uri: https://github.com/code-iai/iai_common_msgs.git
+    version: master
+- git: 
+    local-name: iai_robots
+    uri: https://github.com/code-iai/iai_robots.git
     version: master

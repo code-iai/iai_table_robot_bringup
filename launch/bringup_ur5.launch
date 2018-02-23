@@ -57,16 +57,4 @@
     <node name="fake_state_publisher" pkg="iai_table_robot_bringup" type="fake_state_publisher.py" output="screen"/>
   </group>
 
-  <include file="$(find iai_kms_40_driver)/launch/iai_kms_40_driver.launch" >
-    <arg name="ip" value="192.168.102.65" />
-  </include>
-
-  <include file="$(find iai_table_robot_bringup)/launch/ft_cleaner.launch" />
-
-  <include file="$(find wsg_50_driver)/launch/wsg_50_tcp.launch" >
-    <arg name="ip" value="192.168.102.64" />
-    <arg name="finger_joint_name" default="gripper_joint"/>
-    <arg name="reference_frame" default="gripper_tool_frame"/> 
-  </include>
-
 </launch>
